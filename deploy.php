@@ -17,7 +17,7 @@ $deployPath =  $_ENV['DEPLOY_PATH'];
 set('application', 'deployer-exercise');
 
 // Project repository
-set('repository', 'https://gitlab.com/grzegorz-jamroz/deployer-exercise');
+set('repository', 'git@github.com:grzegorz-jamroz/deployer-exercise.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
@@ -28,7 +28,6 @@ set('shared_dirs', []);
 
 // Writable dirs by web server 
 set('writable_dirs', []);
-
 
 // Hosts
 
