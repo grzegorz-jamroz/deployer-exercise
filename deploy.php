@@ -14,10 +14,10 @@ $deployUser =  $_ENV['DEPLOY_USER'];
 $deployPath =  $_ENV['DEPLOY_PATH'];
 
 // Project name
-set('application', 'deployer-exercise');
+set('application', $_ENV['PROJECT_NAME']);
 
 // Project repository
-set('repository', 'git@github.com:grzegorz-jamroz/deployer-exercise.git');
+set('repository', $_ENV['DEPLOY_REPOSITORY']);
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
