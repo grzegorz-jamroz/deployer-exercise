@@ -25,8 +25,6 @@ DEPLOY_REPOSITORY=git@github.com:grzegorz-jamroz/deployer-exercise.git
 
 ## Usage
 
-This platform contains only two endpoints:
-
 - **Run test task**
 
 ```bash
